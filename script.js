@@ -34,6 +34,7 @@ search.addEventListener("click", async () => {
             <p>🌡️ Température : ${temperature} °C</p>
             <p>☁️ Description : ${description}</p>
         `;
+        console.log(data)
     } catch (error) {
         responseDiv.innerHTML = "<p>Une erreur est survenue.</p>";
         console.error(error);
